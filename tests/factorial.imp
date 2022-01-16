@@ -1,0 +1,8 @@
+n := 10;
+acc := 1;
+i := 2;
+while i <= n
+do (
+  acc := acc * i;
+  i := i + 1
+)

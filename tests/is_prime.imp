@@ -1,0 +1,12 @@
+n := 127;
+
+i := 2;
+continue := 1;
+while i*i <= n and continue = 1
+do (
+    r := n;
+    while not r <= 1 do r := r - i;
+    if r = 0 then continue := 0 else i := i + 1
+);
+
+if continue = 1 then is_prime := 1 else is_prime := 0
